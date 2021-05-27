@@ -1,0 +1,21 @@
+zchain1 address: 
+0x12814335cefBB13704C5558614617c74f2b07f3c
+
+cat zchain1\keystore\UTC--2021-05-25T01-14-58.524973900Z--12814335cefbb13704c5558614617c74f2b07f3c
+
+start zchain1: 
+./geth --datadir zchain1 --unlock "0x12814335cefBB13704C5558614617c74f2b07f3c" --mine --rpc --allow-insecure-unlock
+
+zchain1 enode:
+enode://af0c903f49f28bdebd8fbace7227a1691cbcec245cbf198bb51e844b75f82e9c5c80d682c829ebd9decffd2372097bb32e2406b92489effbe83b0dbc76382481@127.0.0.1:30303
+
+zchain2 address: 
+0x04Ba3bb1D0f5BE3F30899a5746b7a13365DBa444
+
+cat zchain2\keystore\UTC--2021-05-25T01-18-06.127692800Z--04ba3bb1d0f5be3f30899a5746b7a13365dba444
+
+start zchain2: 
+./geth --datadir zchain2 --unlock "0x04Ba3bb1D0f5BE3F30899a5746b7a13365DBa444" --mine --port 30304 --bootnodes "enode://af0c903f49f28bdebd8fbace7227a1691cbcec245cbf198bb51e844b75f82e9c5c80d682c829ebd9decffd2372097bb32e2406b92489effbe83b0dbc76382481@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+Password:
+Zchain7296!@

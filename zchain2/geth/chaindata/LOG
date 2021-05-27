@@ -1,0 +1,39 @@
+=============== May 24, 2021 (CDT) ===============
+20:23:42.423954 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:23:42.426944 db@open opening
+20:23:42.427942 version@stat F·[] S·0B[] Sc·[]
+20:23:42.428961 db@janitor F·2 G·0
+20:23:42.428961 db@open done T·2.017ms
+20:23:42.433923 db@close closing
+20:23:42.433923 db@close done T·0s
+=============== May 25, 2021 (CDT) ===============
+19:05:58.331041 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:05:58.333035 version@stat F·[] S·0B[] Sc·[]
+19:05:58.333035 db@open opening
+19:05:58.333035 journal@recovery F·1
+19:05:58.338025 journal@recovery recovering @1
+19:05:58.363982 memdb@flush created L0@2 N·15 S·1KiB "H\xea/..I?\a,v8":"\xe3\xbd\x0e..\x89}\x9e,v4"
+19:05:58.371958 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:05:58.377939 db@janitor F·3 G·0
+19:05:58.377939 db@open done T·44.9036ms
+23:11:47.928435 db@close closing
+23:11:47.929443 db@close done T·1.0073ms
+=============== May 26, 2021 (CDT) ===============
+13:10:03.192730 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:10:03.202705 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+13:10:03.202705 db@open opening
+13:10:03.202705 journal@recovery F·1
+13:10:03.207699 journal@recovery recovering @3
+13:10:03.214666 memdb@flush created L0@5 N·34 S·1KiB "Dat..ion,v17":"r\x00\x00..\xdf:J,v46"
+13:10:03.220644 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+13:10:03.224840 db@janitor F·4 G·0
+13:10:03.224840 db@open done T·22.1348ms
+=============== May 26, 2021 (CDT) ===============
+16:31:12.554107 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:31:12.554107 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+16:31:12.554107 db@open opening
+16:31:12.555099 journal@recovery F·1
+16:31:12.561079 journal@recovery recovering @6
+16:31:12.567060 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+16:31:12.578098 db@janitor F·4 G·0
+16:31:12.578098 db@open done T·23.9907ms
